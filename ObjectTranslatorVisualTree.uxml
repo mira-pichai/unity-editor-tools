@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/UI%20Toolkit/ObjectTranslator/ObjectTranslatorStylesheet.uss?fileID=7433441132597879392&amp;guid=21ffbed9b9868ed418b9fbf8a0c5db51&amp;type=3#ObjectTranslatorStylesheet" />
+    <engine:VisualElement name="Container" style="flex-grow: 1;">
+        <engine:ListView name="TranslatableObjectsListView" header-title="Translatable Objects" show-border="false" class="section" style="height: 384px;" />
+    </engine:VisualElement>
+    <engine:Button text="Translate Selection" name="TranslateSelection" style="justify-content: flex-end;" />
+    <engine:Button text="Translate All" name="TranslateAll" tooltip="This tooltip was set in the UI Builder." style="justify-content: flex-end;" />
+</engine:UXML>
